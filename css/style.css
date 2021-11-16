@@ -35,7 +35,6 @@
 
 #main-header{
     height: 100px;
-    background-color: pink;
     margin-top: 40px;
     /* margin-bottom: 40px; */
 }
@@ -53,25 +52,48 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    border-radius: 10px;
+}
+.opacity-banner{
+    height: 500px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    
 }
 .info{
     position: absolute;
     left:50px;
     bottom: 50px;
+    color: white;
+}
+.info h3{
+    font-size: 20px;
 }
 
 /* main */
 
 #secondary-header{
     height: 50px;
-    background-color: lightskyblue;
     margin-bottom: 20px;
 }
-.column{
-    height: 500px;
-    background-color: blue;
-    float: left;
+.title{
+    font-size: 30px;
 }
+#secondary-header h4{
+    color: grey;
+    font-weight: normal;
+}
+
+.column {
+    height: 500px;
+    float: left;
+    border-radius: 10px;
+}
+.column p{
+    color: grey;
+}
+
 .center{
     width: calc(50% - 40px);
     margin-left: 20px;
@@ -88,6 +110,9 @@
     background-size: cover;
     background-position: center;
 }
+.opacity{
+    background-color: black;
+}
 .plant{
     background-image: url(../img/img-1.jpg);  
 }
@@ -103,10 +128,10 @@
 /* footer */
 
 footer{
-    background-color: purple;
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
+    color: grey;
 }
 
 #heart {
